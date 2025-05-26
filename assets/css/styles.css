@@ -377,7 +377,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 100px); /* Ajusta la altura para que ocupe la pantalla */
+    min-height: calc(100vh - 100px); 
 }
 
 .signup-container {
@@ -440,7 +440,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 100px); /* Ajusta la altura para que ocupe la pantalla */
+    min-height: calc(100vh - 100px); 
 }
 
 .contact-container {
@@ -497,7 +497,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: calc(100vh - 100px); /* Ajusta la altura para que ocupe la pantalla */
+    min-height: calc(100vh - 100px);
 }
 
 .profile-container {
@@ -520,14 +520,71 @@ footer {
 }
 
 .profile-picture {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 30px;
+    border: 4px solid white;
 }
 
 .profile-details p {
     margin-bottom: 10px;
+}
+
+/*Estilos para la sección del equipo*/
+.team-section {
+    padding: 50px 20px;
+    background-color: black;
+    color: white;
+}
+
+.team-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 400px;
+    flex: 1;
+    padding: 20px;
+}
+
+.team-member img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid white;
+}
+
+.team-member h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.team-member h4 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #CCCCCC;
+}
+
+.team-member p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: white;
 }
 
